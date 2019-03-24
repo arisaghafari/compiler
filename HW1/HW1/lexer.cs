@@ -8,7 +8,7 @@ namespace Hw1
 {
     class lexer
     {
-        List<Token> allOfTokens = new List<Token>();
+        public List<Token> allOfTokens = new List<Token>();
         int row = 1;
         int col = -1;
         int realCol = -1;
@@ -526,6 +526,21 @@ namespace Hw1
             {
                 example = Symbols.S_id;
                 return example;
+            }
+
+        }
+        public void Print()
+        {
+            for (int i = 0; i < allOfTokens.Capacity; i++)
+            {
+                try
+                {
+                    Console.WriteLine(allOfTokens[i]);
+                }
+                catch (Exception)
+                {
+                    i = allOfTokens.Capacity;
+                }
             }
 
         }

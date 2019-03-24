@@ -1,0 +1,6 @@
+C:\git\compiler\Hw1\Hw1\bin\Debug\Hw1.exe.config
+C:\git\compiler\Hw1\Hw1\bin\Debug\Hw1.exe
+C:\git\compiler\Hw1\Hw1\bin\Debug\Hw1.pdb
+C:\git\compiler\Hw1\Hw1\obj\Debug\Hw1.csproj.CoreCompileInputs.cache
+C:\git\compiler\Hw1\Hw1\obj\Debug\Hw1.exe
+C:\git\compiler\Hw1\Hw1\obj\Debug\Hw1.pdb
