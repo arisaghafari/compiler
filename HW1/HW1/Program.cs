@@ -10,6 +10,7 @@ namespace Hw1
     {
         static void Main(string[] args)
         {
+            lexer my = new lexer();
         }
     }
 }

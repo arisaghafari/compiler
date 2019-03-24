@@ -22,5 +22,13 @@ namespace Hw1
             this.col = col;
             
         }
+        public void setSymbol(Symbols symbol)
+        {
+            this.symbol = symbol;
+        }
+        public override string ToString()
+        {
+            return "the word is : " + word + "\nthe Symbol Of it : " + symbol + "\n" + "row : " + row + "\n" + "col : " + col + "\n";
+        }
     }
 }
