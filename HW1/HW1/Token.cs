@@ -4,24 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW1
+namespace Hw1
 {
     class Token
     {
-        string KeyWord;
-        int Row = 0;
-        int Col = 0;
+        String word;
+        int row = 0;
+        int col = 0;
         int NestedBlockNumber;
+        Symbols symbol;
 
-        public void AddToken(string keyWord, int row, int col)
+         public void addToken(String word, int row, int col)
         {
-            this.KeyWord = keyWord;
-            this.Row = row;
-            this.Col = col;
-        }
-        public override string ToString()
-        {
-            return base.ToString();
+            this.word = word;
+            symbol = lexer.isKeyWord(word);
+            this.row = row;
+            this.col = col;
+            
         }
     }
 }

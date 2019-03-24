@@ -18,18 +18,18 @@ enum Symbols
     S_mul,
     S_devide,
     S_sub,
-    S_colon, //:
-    S_semiColon, //;
+    S_colon, 
+    S_semiColon, 
     S_case,
     S_switch,
     S_break,
-    S_comma, //,
+    S_comma, 
     S_and,
     S_or,
     S_return,
     S_continue,
     S_power,
     S_correct_devide,
-    S_openParantez, //(
+    S_openParantez, 
 }
 

@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1016098-DF9E-49AE-896E-187C1247ECA7}</ProjectGuid>
+    <ProjectGuid>{6F50F538-F3FC-4BE5-95EC-89E96999BA96}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW1</RootNamespace>
-    <AssemblyName>HW1</AssemblyName>
+    <RootNamespace>Hw1</RootNamespace>
+    <AssemblyName>Hw1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,9 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lexer.cs" />
+    <Compile Include="lexer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Symbols.cs" />
     <Compile Include="Token.cs" />
   </ItemGroup>
   <ItemGroup>
